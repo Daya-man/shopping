@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,30 @@
   <link rel="stylesheet" href="website.css">
   <title>昆虫食専門店ログイン</title>
 </head>
+
 <body>
   <h2>アカウント</h2>
   <div class="account-main">
 
     <div class="left">
     </div>
-    <div class="right">
-      アカウント名<br>
-    <input type="text" id="name"><br><br><br>
-    ID<br>
-    <input type="text" id="id"><br><br><br>
-    パスワード<br>
-    <input type="text" id="password"><br><br><br>
-    お届先住所<br>
-    <input type="text" id="address"><br><br><br>
-    <button id="apply">適用</button>
-    <a href="">ログアウト</a>
+    <form action="./phpFunc/acountFix.php" method="get">
+      <div class="right">
+        アカウント名<br>
+        <input type="text" id="name" name="name"><br><br><br>
+        Email<br>
+        <input type="text" id="id" name="Email"><br><br><br>
+        パスワード<br>
+        <input type="text" id="password" name="password"><br><br><br>
+        お届先住所<br>
+        <input type="text" id="address" name="address"><br><br><br>
+        <!-- <button id="apply">適用</button> -->
+        <input type="submit" id="address" value="適用">
+        <a href="">ログアウト</a>
+      </div>
+    </form>
+
   </div>
-</div>
 </body>
+
 </html>

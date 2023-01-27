@@ -1,0 +1,10 @@
+.loginForm{
+    display: flex;
+}
+
+.centerPos{
+    width: 80%;
+    margin:0 auto;
+    margin-top: 10%;
+    max-width: 500px;
+}

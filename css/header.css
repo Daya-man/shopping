@@ -1,0 +1,42 @@
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(36, 15, 10);
+}
+
+.header-contents {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+h1 {
+  color: rgb(151, 221, 151);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+.search-container {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+#search {
+  height: 40px;
+  font-size: 90%;
+}
+
+.icon-button {
+  background-image: url("../image/虫眼鏡.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgba(0, 0, 0, 0);
+}
+.icon {
+  width: 40px;
+}

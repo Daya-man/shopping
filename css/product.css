@@ -1,0 +1,16 @@
+.product-box {
+	width: 10%;
+	border: inset;
+	background-color: rgb(254, 250, 230);
+	margin: 30px;
+}
+
+.font-title {
+	font-size: 60%;
+	font-style: italic;
+}
+
+.flex-list {
+	display: flex;
+	flex-wrap: wrap;
+}
